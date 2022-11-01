@@ -3,12 +3,12 @@ body {
     text-align: center;
     color: #666;
     font-size: 260%;
-    font-family: sans-serif;   
-    margin:0 auto; 
-    padding:0;
-    background:url(/img/stars.jpg) fixed;
+    font-family: sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    background: url(/img/stars.jpg) fixed;
     /* overflow: hidden; */
-    
+
 }
 
 a {
@@ -94,6 +94,11 @@ h2 {
     padding: 0;
 }
 
+@font-face {
+    font-family: BroadaxeRevolution; /* Гарнитура шрифта */
+    src: url(/font/BroadaxeRevolution.ttf);/* Путь к файлу со шрифтом */
+}
+
 .box {
     background: #111111;
     border: 3px dashed #222222;
@@ -104,4 +109,5 @@ h2 {
     padding: 5px 30px 30px 30px;
     transform: translateX(450%);
     margin-top: 2.5%;
+    box-shadow: rgba(120, 120, 203, 0.25) 0px 30px 60px -12px inset, rgba(247, 245, 245, 0.3) 0px 18px 36px -18px inset;
 }
